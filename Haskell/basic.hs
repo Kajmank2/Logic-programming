@@ -65,3 +65,14 @@ numList = [1,2,3,4,5]
 rangeList = [1..5]
 alphaList=['a'..'z']
 evenNums = [2,4..20]
+
+--Iterate
+--Input: take 10 (iterate (2*) 1)
+--Output: [1,2,4,8,16,32,64,128,256,512]
+
+--Input: take 10 (iterate (\x -> (x+3)*2) 1)
+--Output: [1,8,22,50,106,218,442,890,1786,3578]
+
+--FLIP 
+--Input: flip (/) 1 2
+--Output: 2.0
